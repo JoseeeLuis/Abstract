@@ -3,10 +3,12 @@ main{
 }
 .main-imgs{
         background-color: red;
-        width: 100px;
-        height: 100px;
+        width: 85px;
+        height: 85px;
         display: flex;
         justify-content: flex-start;
+        margin-top: 20px;
+        margin-right: 20px;
     }
 
 .title-of-the-optionts{
@@ -23,38 +25,46 @@ main{
 
 .grid{
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 500px 500px;
     grid-template-rows: 220px 220px;
     background-color: grey;
     gap: 20px;
+    justify-content: space-around;
+    padding: 100px;
 }    
 
 .box-1{
     display: flex;
     flex-direction: row;
+    background-color: greenyellow;
 }
 
 .box-2{
     display: flex;
     flex-direction: row;
+    background-color: greenyellow;
 }
 
 .box-3{
     display: flex;
     flex-direction: row;
+    background-color: greenyellow;
 }
 
 .box-4{
     display: flex;
     flex-direction: row;
+    background-color: greenyellow;
 }
 
 .box-5{
     display: flex;
     flex-direction: row;
+    background-color: greenyellow;
 }
 
 .box-6{
     display: flex;
     flex-direction: row;
+    background-color: greenyellow;
 }
