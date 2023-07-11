@@ -9,23 +9,33 @@ a:link, a:visited {
     color: white;
     cursor: auto;
   }
-nav{
+
+nav {
     background-color: black;
     height: 88px;
     width: 100%;
-}
-.logos{
-    width:126px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .logos {
+    width: 126px;
     height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-right: 10px;
-}
-
-nav ul {
-    margin-right:20px ;
-}
+    margin-left: auto;
+  }
+  
+  nav ul {
+    margin-left: auto;
+    padding-right: 122.156px;
+  }
+  
+  
+  
 nav ul li{
     display: inline-block;
     line-height: 80px;
@@ -40,38 +50,76 @@ nav ul li a{
 
 }
 .submit{
-    display: inline-block;
+    display:flex;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #191a1b;
     margin-left: 1rem;
     padding: 6px 22px;
-    height:50px ;
-    width: 231.07px;
-    vertical-align: middle;
-    text-align: center;
-}
-.center-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 99px;
-
-}
-.left-nav{
-    display: flex;
+    height: 36px;
+    width: 185.062px;
     justify-content: center;
     align-items: center;
 }
-.help-center{
-    display: flex;
-    flex-direction: row;
-    padding: 5px 0 0 9px;
-    font-size: 24px;
+.sign{
+    display:flex;
+    background-color: #4c5fd5;
+    margin-left: 1rem;
+    padding: 6px 32px;
+    height: 36px;
+    width: 74.328;
+    border: 1px solid #4c5fd5 ;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
+.center-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 20px;
+  }
+  
+  
+  .left-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 122.156px;
+  }
+  
+  .help-center {
+    margin-left: 10px;
+    font-size: 24px;
+  }
+  
 
 nav span {
-    padding: 5px 0 0 0;
+    padding: 3px 0 0 0;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
+}
+
+header{
+    padding: 80px 30px 115px 30px;
+    background: #dadbf1;
+    font-family: 'Roboto', sans-serif;
+}
+
+header p{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 16px;
+}
+
+header input{
+    width: 686px;
+    height: 32px;
+    justify-content: center;
+    margin: 0 25% 0 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 16px;
+
 }
