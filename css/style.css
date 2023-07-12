@@ -31,8 +31,10 @@ nav {
   }
   
   nav ul {
+    display: flex;
+    align-items: center;
     margin-left: auto;
-    padding-right: 122.156px;
+    padding-right: 99px;
   }
   
   nav ul li{
@@ -109,6 +111,7 @@ header{
     padding: 80px 30px 115px 30px;
     background: #dadbf1;
     font-family: 'Roboto', sans-serif;
+    height: 202px;
 }
 
 header p{
@@ -117,11 +120,16 @@ header p{
     margin-bottom: 16px;
 }
 
+header form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 header input{
     width: 686px;
     height: 32px;
+    display: flex;
     justify-content: center;
-    margin: 0 25% 0 30%;
     border: 1px solid black;
     border-radius: 5px;
     padding: 16px;
