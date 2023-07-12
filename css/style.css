@@ -206,3 +206,29 @@ main{
     flex-direction: row;
     background-color: greenyellow;
 }
+footer{
+    background: gold;
+}
+
+#grill{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 300px;
+    }
+
+#column-1{
+    display: flex;
+    flex-direction: row;
+}
+#column-2 {
+    display: flex;
+    flex-direction: row;
+}
+#column-3 {
+    display: flex;
+    flex-direction: row;
+}
+#column-4{
+    display: flex;
+    flex-direction: row;
+}
