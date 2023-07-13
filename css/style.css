@@ -309,7 +309,6 @@ footer a:hover {
     }
 
     main #grid {
-        grid-template-columns: 1fr;
         grid-template-rows: repeat(6, auto);
         padding: 50px;
         row-gap: 30px;
@@ -409,17 +408,23 @@ footer a:hover {
     }
 
     footer #grid {
-        grid-template-columns: 1fr;
         grid-template-rows: auto;
         row-gap: 20px;
         justify-content: start;
     }
 
     .footer-logo {
-        display: none;
+        position: relative;
     }
 
+    .logo-footer img {
+        height: 3rem;
+        width: 3rem;
+        margin-left: 40px;
+    }
     .logo-text p {
-        display: none;
+        color: #ffffff;
+        margin-left:40px ;
+        margin-bottom: 20px;
     }
 }
