@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: content-box;
@@ -6,10 +6,11 @@
     text-decoration: none;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: white;
     cursor: auto;
-  }
+}
 
 nav {
     background-color: black;
@@ -18,9 +19,9 @@ nav {
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-  }
+}
 
-  .logos {
+.logos {
     width: 126px;
     height: 32px;
     display: flex;
@@ -28,32 +29,32 @@ nav {
     justify-content: center;
     padding-right: 10px;
     margin-left: auto;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
     align-items: center;
     margin-left: auto;
     padding-right: 99px;
-  }
-  
-  nav ul li{
+}
+
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
-  }
+}
 
-  nav ul li a{
+nav ul li a {
     color: white;
     font-size: 24px;
     padding: 7px 13px;
     transition: 0.5s;
     text-decoration: none;
 
-  }
+}
 
-  .submit{
-    display:flex;
+.submit {
+    display: flex;
     border: 1px solid white;
     border-radius: 10px;
     background-color: #191a1b;
@@ -65,14 +66,14 @@ nav {
     align-items: center;
 }
 
-.sign{
-    display:flex;
+.sign {
+    display: flex;
     background-color: #4c5fd5;
     margin-left: 1rem;
     padding: 6px 32px;
     height: 36px;
     width: 74.328;
-    border: 1px solid #4c5fd5 ;
+    border: 1px solid #4c5fd5;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -85,20 +86,20 @@ nav {
     width: 100%;
     max-width: 1140px;
     padding: 0 20px;
-  }
-  
-  
-  .left-nav {
+}
+
+
+.left-nav {
     display: flex;
     align-items: center;
     padding-left: 122.156px;
-  }
-  
-  .help-center {
+}
+
+.help-center {
     margin-left: 10px;
     font-size: 24px;
-  }
-  
+}
+
 
 
 nav span {
@@ -107,14 +108,14 @@ nav span {
     font-size: 35px;
 }
 
-header{
+header {
     padding: 80px 30px 115px 30px;
     background: #dadbf1;
     font-family: 'Roboto', sans-serif;
     height: 202px;
 }
 
-header p{
+header p {
     text-align: center;
     font-size: 80px;
     margin-bottom: 16px;
@@ -125,7 +126,8 @@ header form {
     justify-content: center;
     align-items: center;
 }
-header input{
+
+header input {
     width: 686px;
     height: 32px;
     display: flex;
@@ -136,32 +138,33 @@ header input{
 }
 
 
-main{
+main {
     background: white;
 }
-.main-imgs{
-        background-color: red;
-        width: 85px;
-        height: 85px;
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 20px;
-        margin-right: 20px;
-    }
 
-.title-of-the-optionts{
+.main-imgs {
+    background-color: red;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.title-of-the-optionts {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-.explanation{
+.explanation {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 220px 220px;
@@ -169,66 +172,70 @@ main{
     gap: 20px;
     justify-content: space-around;
     padding: 100px;
-}    
+}
 
-.box-1{
+.box-1 {
     display: flex;
     flex-direction: row;
     background-color: greenyellow;
 }
 
-.box-2{
+.box-2 {
     display: flex;
     flex-direction: row;
     background-color: greenyellow;
 }
 
-.box-3{
+.box-3 {
     display: flex;
     flex-direction: row;
     background-color: greenyellow;
 }
 
-.box-4{
+.box-4 {
     display: flex;
     flex-direction: row;
     background-color: greenyellow;
 }
 
-.box-5{
+.box-5 {
     display: flex;
     flex-direction: row;
     background-color: greenyellow;
 }
 
-.box-6{
+.box-6 {
     display: flex;
     flex-direction: row;
     background-color: greenyellow;
 }
-footer{
+
+footer {
     background: gold;
 }
 
-#grill{
+#grill {
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 300px;
-    }
+}
 
-#column-1{
+#column-1 {
     display: flex;
     flex-direction: row;
 }
+
 #column-2 {
     display: flex;
     flex-direction: row;
 }
+
 #column-3 {
     display: flex;
     flex-direction: row;
 }
-#column-4{
+
+#column-4 {
     display: flex;
     flex-direction: row;
 }
