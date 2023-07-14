@@ -286,7 +286,12 @@ footer a:hover {
 }
 
 /* Media Queries */
-
+@media screen and (max-width: 510px){
+    .footer-logo{
+        position: relative;
+        left: 8%;        
+    }
+}
 @media screen and (max-width: 767px) {
     nav ul li a {
         font-size: 20px;
@@ -358,13 +363,16 @@ footer a:hover {
     }
 }
 
-@media screen and (min-width: 767px) and (max-width:1023px){
-    body{
-        background-color: chartreuse;
-    }
-    main #grid{
+@media screen and (min-width: 767px) and (max-width:1100px){
+    main #grid {
         display: flex;
         flex-direction: column;
+    }
+    footer #grid {
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: auto;
+        row-gap: 20px;
+        justify-content: start;
     }
     .footer-logo{
         top:64%;
@@ -378,5 +386,8 @@ footer a:hover {
     .logo-footer img{
         width: 2rem;
         height: 2rem;
+    }
+    nav ul{
+        padding-right: 1%;
     }
 }
