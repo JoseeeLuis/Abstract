@@ -287,17 +287,17 @@ footer a:hover {
 
 /* Media Queries */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
     nav ul li a {
         font-size: 20px;
     }
 
     .submit {
-        width: 150px;
+        display: none;
     }
 
     .sign {
-        width: 100px;
+        display: none;
     }
 
     header p {
@@ -309,10 +309,8 @@ footer a:hover {
     }
 
     main #grid {
-        grid-template-rows: repeat(6, auto);
-        padding: 50px;
-        row-gap: 30px;
-        column-gap: 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .main-imgs {
@@ -343,88 +341,42 @@ footer a:hover {
         grid-template-rows: auto;
         row-gap: 20px;
         justify-content: start;
+    }
+
+    .logo p{
+        font-size: 7px;
+    }
+
+    .logo-footer img{
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .footer-logo{
+        top: 80%;
+        right: 4%;
     }
 }
 
-@media screen and (max-width: 600px) {
-    nav ul {
-        display: none;
+@media screen and (min-width: 767px) and (max-width:1023px){
+    body{
+        background-color: chartreuse;
+    }
+    main #grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo{
+        top:64%;
+        right: 1%;
     }
 
-    nav .logos {
-        margin-left: auto;
-        margin-right: auto;
+    .logo p{
+        font-size: 7px;
     }
 
-    .sign {
-        display: none;
-    }
-
-    .center-nav {
-        justify-content: space-between;
-    }
-
-    header p {
-        font-size: 40px;
-    }
-
-    header input {
-        width: 250px;
-    }
-
-    .help-center {
-        font-size: 20px;
-    }
-
-    main #grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, auto);
-        padding: 50px;
-        row-gap: 30px;
-        column-gap: 0;
-    }
-
-    .main-imgs {
-        width: 60px;
-        height: 60px;
-    }
-
-    .title-of-the-optionts {
-        font-size: 20px;
-    }
-
-    .explanation {
-        font-size: 20px;
-    }
-
-    .links {
-        font-size: 16px;
-    }
-
-    #grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        column-gap: 20px;
-    }
-
-    footer #grid {
-        grid-template-rows: auto;
-        row-gap: 20px;
-        justify-content: start;
-    }
-
-    .footer-logo {
-        position: relative;
-    }
-
-    .logo-footer img {
-        height: 3rem;
-        width: 3rem;
-        margin-left: 40px;
-    }
-    .logo-text p {
-        color: #ffffff;
-        margin-left:40px ;
-        margin-bottom: 20px;
+    .logo-footer img{
+        width: 2rem;
+        height: 2rem;
     }
 }
